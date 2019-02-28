@@ -1,7 +1,7 @@
 title: "About"
 permalink: /about/
 header:
-	image: "/image/bio2.png"
+	image: "/images/bio2.png"
 
 
 This is me !
