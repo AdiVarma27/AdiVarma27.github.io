@@ -16,13 +16,13 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Adi Varma"
+title                    : "Adi Kalidindi"
 title_separator          : "-"
-name                     : "Aditya Kalidindi (Adi)"
+name                     : "Adi Kalidindi"
 description              : "Data Science Blog"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "AdiVarma27"
+repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -106,11 +106,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Aditya Kalidindi (Adi)"
+  name             : "Adi Kalidindi"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : "Machine Learning Blog"
   location         : "Boston, MA"
-  email            :
+  email            : "avkalidi@andrew.cmu.edu"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -126,7 +126,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/AdiVarma27"
+      # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -278,3 +278,29 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+
+  # _pages
+  - scope: 
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+
+
