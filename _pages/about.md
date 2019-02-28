@@ -4,4 +4,4 @@ permalink: /about/
 author_profile: true
 ---
 
-Hi !
+Hi 
