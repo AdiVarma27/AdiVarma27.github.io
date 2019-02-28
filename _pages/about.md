@@ -1,8 +1,7 @@
 ---
-title: "About"
+layout: archive
 permalink: /about/
-header:
-image: "/images/bio2.jpg"
+author_profile: true
 ---
 
-This is me !
+Hi !
