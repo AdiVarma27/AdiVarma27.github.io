@@ -71,6 +71,7 @@ theta0, theta1, y_pred = GradientDescent(X, y)
 ```
 
 Below, we observe that the red line is the final Regression line (best fit) using Gradient descent, with intercept theta0 = 1.449 and slope theta1 = 2.099.
+
 <img src="{{site.url}}{{site.baseurl}}/images/post1/graph.jpeg">
 Tuning the learning rate $${\alpha}$$ is an important part of Gradient Descent, or the cost function $$J({\theta}_0, {\theta}_1)$$ may or maynot converge everytime. However, the learning rate need not be adjusted after every iteration, as the rate of change/ slope would be initially high, and eventually starts decreasing over iterations. 
 
