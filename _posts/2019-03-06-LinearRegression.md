@@ -19,7 +19,7 @@ $$MSE = \displaystyle\frac{1}{n}\sum_{t=1}^{n}(h(x^i) - y^i)^2$$
 
 The hypothesis $$h(x^i)$$ can be expressed as: $${\theta}_0 + {\theta}_1(x^i)$$, where $${\theta}_0$$ is the intercept and $${\theta}_1$$ is the slope of the best-fit line. We can express this as a cost-function whcih needs to be minimized, by updating the values of $${\theta}_0$$ and $${\theta}_1$$ simultaneously. Hence, the cost function is as follows:
 
-**$$J({\theta}_0, {\theta}_1) = \displaystyle\frac{1}{n}\sum_{t=1}^{n}(({\theta}_0 + {\theta}_1(x^i)) - y^i)^2$$**
+$$J({\theta}_0, {\theta}_1) = \displaystyle\frac{1}{n}\sum_{t=1}^{n}(({\theta}_0 + {\theta}_1(x^i)) - y^i)^2$$
 
 We need to find $${\theta}_0, {\theta}_1$$ such that the cost function $$J({\theta}_0, {\theta}_1)$$ is minimized (Least Mean Squared Error)
 
@@ -77,4 +77,5 @@ Tuning the learning rate $${\alpha}$$ is an important part of Gradient Descent, 
 As we observe below, in Figure 1, the $${\alpha}$$ is small, the cost function is reduced iteratively and finally reaches local minima. 
 
 For a higher $${\alpha}$$, the cost function does not converge, and overshoots the value. Hence, learning rate parameter needs to be tuned properly.
+
 <img src="{{site.url}}{{site.baseurl}}/images/post1/img3.jpeg">
