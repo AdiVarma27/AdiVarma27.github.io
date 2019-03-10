@@ -4,7 +4,7 @@ date: 2019-02-27
 tags: [machine learning, linear regression, optimization, python, data science]
 mathjax: "true"
 ---
-In this post, we will use Gradient Descent to find the relationship between one independent/explanatory variable and the depedent/outcome variable.
+In this post, we will use Gradient Descent to find the relationship between one independent/explanatory variable and the dependent/outcome variable.
 
 ### What is Gradient Descent ?
 ---
