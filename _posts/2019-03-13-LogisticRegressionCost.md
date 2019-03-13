@@ -28,21 +28,21 @@ Log Loss can be calulated by penalizing heavily when the predicted probability i
 
 $$J(h(x),y)$$ =  $$-ylog(h(x))-(1-y)log(1-h(x))$$
 
-If $$y=1$$, $$J(h(x),y) = -log(h(x)$$
+If $$y=1$$, $$J(h(x),y) = -log(h(x)$$&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 If $$y=0$$, $$J(h(x),y) = -log(1-h(x))$$
 
 
 
 ### Cost Function Derivation
 ---
- From the above equatin, we saw $$J({\theta})$$ =  $$-ylog(h(x))-(1-y)log(1-h(x))$$
- We use gradient descent to find the optimal parameters $${\theta}_0$$, $${\theta}_1$$ to reduce the Cost function $$J({\theta})$$. Below is the gradient descent algorithm:
+From the above equatin, we saw $$J({\theta})$$ =  $$-ylog(h(x))-(1-y)log(1-h(x))$$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+We use gradient descent to find the optimal parameters $${\theta}_0$$, $${\theta}_1$$ to reduce the Cost function $$J({\theta})$$. Below is the gradient descent algorithm:
  
- <img src="{{site.url}}{{site.baseurl}}/images/post2/img2.jpeg">
- where α is the ‘learning rate’, which is a scalar quantity that defines the step size, and is multiplied with the slope/ partial derivative of the cost function curve. We need to compute partial derivatives of the cost function with respect to parameters for the update step.
+<img src="{{site.url}}{{site.baseurl}}/images/post2/img2.jpeg">
+where α is the ‘learning rate’, which is a scalar quantity that defines the step size, and is multiplied with the slope/ partial derivative of the cost function curve. We need to compute partial derivatives of the cost function with respect to parameters for the update step.
  
-  <img src="{{site.url}}{{site.baseurl}}/images/post2/img1.jpeg">
- Hence, the partial derivative of the cost function in Logistic Regression looks similar to the one of Linear Regression. 
+<img src="{{site.url}}{{site.baseurl}}/images/post2/img1.jpeg">
+Hence, the partial derivative of the cost function in Logistic Regression looks similar to the one of Linear Regression. 
  
 
 
