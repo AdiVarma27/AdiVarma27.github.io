@@ -88,4 +88,6 @@ From the graph below, we see that the parameters $${\theta}_0$$, $${\theta}_1$$ 
 
 The points in yellow belong to class 0 and points in blue belong to class 1. We see that the decision boundary separates the two classes and the final decision boundary (in red) minimizes the cost function, and find optimal parameters $${\theta}_0$$, $${\theta}_1$$.
 
+In the next post, we will take a deeper look at Log-loss, cross-entropy and regularization (applicable to Linear/ Logistic Regression). 
+
 Source: Cost function derivation (https://stats.stackexchange.com/questions/278771/how-is-the-cost-function-from-logistic-regression-derivated)
