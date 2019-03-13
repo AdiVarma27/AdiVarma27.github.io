@@ -48,7 +48,7 @@ If $$y=0$$, $$Cost(h(x),y) = -log(1-h(x))$$
 
 ### Python Implementation
 ---
- Below is the implementation of gradient descent, with default values for θ0, θ1 set to 0. Number of iterations and alpha set to 1000 and 0.1 respectively.
+ Below is the implementation of gradient descent, with default values for $${\theta}_0$$, $${\theta}_1$$ set to 0. Number of iterations and alpha set to 1000 and 0.1 respectively.
  ```python 
  import numpy as np
 
