@@ -26,7 +26,7 @@ Log Loss can be calulated by penalizing heavily when the predicted probability i
 
 $$J(h(x),y)$$ =  $$-ylog(h(x))-(1-y)log(1-h(x))$$
 
-If $$y=1$$, $$J(h(x),y) = -log(h(x)$$
+If $$y=1$$, $$J(h(x),y) = -log(h(x))$$
 
 If $$y=0$$, $$J(h(x),y) = -log(1-h(x))$$
 
