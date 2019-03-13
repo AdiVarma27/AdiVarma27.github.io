@@ -32,7 +32,6 @@ If $$y=0$$, $$J(h(x),y) = -log(1-h(x))$$
 
 ### Cost Function Derivation
 ---
-From the above equatin, we saw $$J({\theta})$$ =  $$-ylog(h(x))-(1-y)log(1-h(x))$$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 We use gradient descent to find the optimal parameters $${\theta}_0$$, $${\theta}_1$$ to reduce the Cost function $$J({\theta})$$. Below is the gradient descent algorithm:
  
 <img src="{{site.url}}{{site.baseurl}}/images/post2/img2.jpeg">
@@ -87,3 +86,5 @@ theta_0, theta_1 = LogisticRegression(X, y, max_iterations=1000, alpha=0.1)
 
 From the graph below, we see that the parameters $${\theta}_0$$, $${\theta}_1$$ are tuned to reduce the log loss between predicted probabilit and actual class label. 
  <img src="{{site.url}}{{site.baseurl}}/images/post2/img3.jpeg">
+
+The points in yellow belong to class 0 and points in blue belong to class 1. We see that the decision boundary separates the two classes and the final decision boundary (in red) minimizes the cost function, and find optimal parameters $${\theta}_0$$, $${\theta}_1$$.
