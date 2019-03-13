@@ -42,6 +42,7 @@ We use gradient descent to find the optimal parameters $${\theta}_0$$, $${\theta
 where α is the ‘learning rate’, which is a scalar quantity that defines the step size, and is multiplied with the slope/ partial derivative of the cost function curve. We need to compute partial derivatives of the cost function with respect to parameters for the update step.
  
 <img src="{{site.url}}{{site.baseurl}}/images/post2/img1.jpeg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Hence, the partial derivative of the cost function in Logistic Regression looks similar to the one of Linear Regression. 
  
 
