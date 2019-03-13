@@ -14,8 +14,6 @@ The Sigmoid/ Logit function is used to to generate a probability score $$[0,1]$$
 
 $$h(x) = g({\theta}^TX)$$ = $$P(y=1/x;{\theta})$$&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-$$P(y=1/x;{\theta}) + P(y=0/x;{\theta}) = 1$$
-
 where $$g$$ maps the input to $$[0,1]$$. Below is the Python code to map input vector X, along with input parameters $${\theta}_0$$, $${\theta}_1$$ to a probability.
 
 ```python
@@ -28,10 +26,9 @@ Log Loss can be calulated by penalizing heavily when the predicted probability i
 
 $$J(h(x),y)$$ =  $$-ylog(h(x))-(1-y)log(1-h(x))$$
 
-If $$y=1$$, $$J(h(x),y) = -log(h(x)$$&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+If $$y=1$$, $$J(h(x),y) = -log(h(x)$$
+
 If $$y=0$$, $$J(h(x),y) = -log(1-h(x))$$
-
-
 
 ### Cost Function Derivation
 ---
@@ -42,7 +39,7 @@ We use gradient descent to find the optimal parameters $${\theta}_0$$, $${\theta
 where α is the ‘learning rate’, which is a scalar quantity that defines the step size, and is multiplied with the slope/ partial derivative of the cost function curve. We need to compute partial derivatives of the cost function with respect to parameters for the update step.
  
 <img src="{{site.url}}{{site.baseurl}}/images/post2/img1.jpeg">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
 Hence, the partial derivative of the cost function in Logistic Regression looks similar to the one of Linear Regression. 
  
 
@@ -86,6 +83,7 @@ y = np.array([0,0,0,0,0,0,1,0,1,0,1,0,1,0,1,1,1,1,1,1])
 # function call
 theta_0, theta_1 = LogisticRegression(X, y, max_iterations=1000, alpha=0.1)
 ```
+
 
 From the graph below, we see that the parameters $${\theta}_0$$, $${\theta}_1$$ are tuned to reduce the log loss between predicted probabilit and actual class label. 
  <img src="{{site.url}}{{site.baseurl}}/images/post2/img3.jpeg">
