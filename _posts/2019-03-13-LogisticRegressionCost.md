@@ -13,7 +13,7 @@ A Binary Logistic Regression model classifies input vectors into classes, by cal
 The Sigmoid/ Logit function is used to to generate a probability score $$[0,1]$$, of belonging to class 1, by passing the  the linear combination of weights and vectors, i.e., $${\theta}_0$$ + $${\theta}_1X$$, through the Sigmoid function. As we need hypothesis $$h(x)$$, where $$0<=h(x)<=1$$ , our new hypothesis becomes 
 
 $$h(x) = g({\theta}^TX)$$ = $$P(y=1/x;{\theta})$$
-\newline
+
 $$P(y=1/x;{\theta}) + P(y=0/x;{\theta}) = 1$$
 
 where $$g$$ maps the input to $$[0,1]$$. Below is the Python code to map input vector X, along with input parameters $${\theta}_0$$, $${\theta}_1$$ to a probability.
