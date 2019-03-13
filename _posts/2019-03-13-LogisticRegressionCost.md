@@ -14,7 +14,7 @@ The Sigmoid/ Logit function is used to to generate a probability score $$[0,1]$$
 
 $$h(x) = g({\theta}^TX)$$ = $$P(y=1/x;{\theta})$$&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-where $$g$$ maps the input to $$[0,1]$$. Below is the Python code to map input vector X, along with input parameters $${\theta}_0$$, $${\theta}_1$$ to a probability.
+where $$g$$ maps the input to a probability $$[0,1]$$. Below is the Python code to map input vector X, along with input parameters $${\theta}_0$$, $${\theta}_1$$ to a probability.
 
 ```python
 def Logit(X, theta_0, theta_1):
