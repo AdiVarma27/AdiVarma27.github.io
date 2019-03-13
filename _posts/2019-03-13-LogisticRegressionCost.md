@@ -13,7 +13,7 @@ A Binary Logistic Regression model classifies input vectors into classes, by cal
 The Sigmoid/ Logit function is used to to generate a probability score $$[0,1]$$, of belonging to class 1, by passing the  the linear combination of weights and vectors, i.e., $${\theta}_0$$ + $${\theta}_1X$$, through the Sigmoid function. As we need hypothesis $$h(x)$$, where $$0<=h(x)<=1$$ , our new hypothesis becomes 
 
 $$h(x) = g({\theta}^TX)$$ = $$P(y=1/x;{\theta})$$
-
+\newline
 $$P(y=1/x;{\theta}) + P(y=0/x;{\theta}) = 1$$
 
 where $$g$$ maps the input to $$[0,1]$$. Below is the Python code to map input vector X, along with input parameters $${\theta}_0$$, $${\theta}_1$$ to a probability.
@@ -44,8 +44,9 @@ If $$y=0$$, $$Cost(h(x),y) = -log(1-h(x))$$
   <img src="{{site.url}}{{site.baseurl}}/images/post2/img1.jpeg">
  Hence, the partial derivative of the cost function in Logistic Regression looks similar to the one of Linear Regression. 
  
- 
- ### Python Implementation
+
+
+### Python Implementation
  ---
  Below is the implementation of gradient descent, with default values for θ0, θ1 set to 0. Number of iterations and alpha set to 1000 and 0.1 respectively.
  ```python 
