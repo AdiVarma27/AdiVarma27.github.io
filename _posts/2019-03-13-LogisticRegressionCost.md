@@ -1,5 +1,5 @@
 ---
-title: "Logistic Regression, Log Loss, Cost Function Derivation, Python Implementation"
+title: "Logistic Regression, Cost Function Derivation, Python Implementation"
 date: 2019-02-27
 tags: [machine learning, logistic regression, optimization, python, data science, classification, log loss]
 mathjax: "true"
@@ -20,8 +20,7 @@ where $$g$$ maps the input to $$[0,1]$$. Below is the Python code to map input v
 def Logit(X, theta_0, theta_1):
     return 1/(1 + np.exp(-(theta_0 + theta_1*X)))
 ```
-### Log Loss Intuition
----
+
 Log Loss can be calulated by penalizing heavily when the predicted probability is away from the actual label. If actual label $$y = 1$$, and if the predicted output is close to $$1$$, the cost of the loss function is close to $$0$$; If the predicted probability is closer to $$0$$, the cost must increase/ penalized heavily. 
 
 $$J(h(x),y)$$ =  $$-ylog(h(x))-(1-y)log(1-h(x))$$
@@ -88,3 +87,5 @@ From the graph below, we see that the parameters $${\theta}_0$$, $${\theta}_1$$ 
  <img src="{{site.url}}{{site.baseurl}}/images/post2/img3.jpeg">
 
 The points in yellow belong to class 0 and points in blue belong to class 1. We see that the decision boundary separates the two classes and the final decision boundary (in red) minimizes the cost function, and find optimal parameters $${\theta}_0$$, $${\theta}_1$$.
+
+Source: Cost function derivation (https://stats.stackexchange.com/questions/278771/how-is-the-cost-function-from-logistic-regression-derivated)
