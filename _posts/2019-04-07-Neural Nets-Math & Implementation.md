@@ -592,7 +592,7 @@ X, y = X.T, y.T
 ```
 
 
-![png](output_32_0.png)
+![png](/images/post3/output_32_0.png)
 
 
 * We observe that the accuracy is only around 50 %. Hence, just W and b vectors are not enough to model the non-linearity that exists in the data.
