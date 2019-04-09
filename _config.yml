@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 classes: wide
 # Site Settings
 locale                   : "en-US"
@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Adi Kalidindi"
   avatar           : "images/bio1.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Machine Learning Blog"
+  bio              : "Data Scientist, Grad Student at Carnegie Mellon"
   location         : "Boston, MA"
   email            : "avkalidi@andrew.cmu.edu"
   links:
