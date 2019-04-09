@@ -642,4 +642,4 @@ plt.grid()
 ![png](/images/post3/output_36_0.png)
 
 
-#### Deep Layered Neural Nets can now outperform human beings at classification tasks. We are yet to tune all the hyper-parameters, use optimization techniques to help parameters converge faster, and also look at Convoluted/ Recurrent layers to improve performance. 
+#### Deep Layered Neural Nets can now outperform us at classification tasks. We are yet to tune all the hyper-parameters, use optimization techniques to help parameters converge faster, and also look at Convoluted/ Recurrent layers to improve performance. 
