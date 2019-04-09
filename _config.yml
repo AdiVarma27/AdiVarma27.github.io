@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Adi Kalidindi"
   avatar           : "images/bio1.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Data Scientist, Grad Student at Carnegie Mellon"
+  bio              : "Data Scientist, CMU Gard"
   location         : "Boston, MA"
   email            : "avkalidi@andrew.cmu.edu"
   links:
