@@ -1,5 +1,5 @@
 ---
-title: "Neural Network (Math & Implementation)"
+title: "Neural Network Intuition (Math & Implementation)"
 date: 2019-04-08
 tags: [machine learning, neural network]
 mathjax: "true"
@@ -32,7 +32,7 @@ from sklearn.model_selection import train_test_split
 
 Let's load the activation functions we will use in this classification task. We use Sigmoid function to map our input to [0,1] in binary classification task. 
 
-* The final output layer uses the Sigmoid function (remember that the activation function of Logistic regression is based on sigmoid fucntion).
+* The final output layer uses the Sigmoid function (remember that the activation function of Logistic regression is based on sigmoid function).
 
 
 * Tanh activation function is similary to Sigmoid function, but y-values go below 0. (i.e., [-1,1]), derivates are steeper when compared to Sigmoid function.
@@ -46,7 +46,7 @@ Let's load the activation functions we will use in this classification task. We 
 def sigmoid(X):
     return (1/(1+np.exp(-X)))
 
-# Tanh fucntions -> maps input to [-1,1]
+# Tanh function -> maps input to [-1,1]
 def tanh(X):
     return np.tanh(X)
 
@@ -133,7 +133,7 @@ plt.scatter(X[:,0], X[:, 1], c=y)
 ![png](/images/post3/output_9_1.png)
 
 
-* Now, let us consider the input feature matrix X-transpose, with shape (2, 800), represented as the zeroth layer/ input layer of our Neural Network. As we have two features (x1, x2) for our input data, we would have 2-weights (w1, w2), along with the term b, as the parameters of our model.
+* Now, let us consider the input feature matrix X-transpose, with shape (2, 800), represented as the zeroeth layer/ input layer of our Neural Network. As we have two features (x1, x2) for our input data, we would have 2-weights (w1, w2), along with the term b, as the parameters of our model.
 
 ### Propagation Step:
 
@@ -615,7 +615,7 @@ print(accuracy_score(y_test, y_pred)*100, '% accuracy')
       warnings.warn(CV_WARNING, FutureWarning)
 
 
-### Hence, we traing the data using 2-Layered Neural Net, over various number of hidden layers, and find that 3 hidden units can predict with 100 % accuracy.
+#### Hence, we train the data using 2-Layered Neural Net, over various number of hidden layers, and find that 3 hidden units can predict with 100 % accuracy.
 
 
 ```python
@@ -642,4 +642,4 @@ plt.grid()
 ![png](/images/post3/output_36_0.png)
 
 
-#### Deep Layered Neural Nets can now out perform better than human beings at classification tasks. We are yet to tune all the hyper-parameters, use optimization techniques to help parameters converge faster, and also look at Convoluted/ Recurrent layers to improve performance. 
+#### Deep Layered Neural Nets can now outperform human beings at classification tasks. We are yet to tune all the hyper-parameters, use optimization techniques to help parameters converge faster, and also look at Convoluted/ Recurrent layers to improve performance. 
