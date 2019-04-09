@@ -1,3 +1,9 @@
+---
+title: "Neural Network (Math & Implementation)"
+date: 2019-04-08
+tags: [machine learning, neural network]
+mathjax: "true"
+---
 
 ### This post is to help provide an intuitive understanding of a (dumb) 2-Layered Neural Network.
 
