@@ -3,11 +3,6 @@ main:
   - title: "About"
     url: /about/
 
-  - title: "Tags"
-    url: /machine-learning/
-
-  - title: "ML Notebooks"
-    url: /notebooks/
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
