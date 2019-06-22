@@ -6,6 +6,10 @@ author_profile: true
 
 <h3>
 Statistics
+<hr>
+<ul>
+	
+	</ul>
 </h3>
 
 <h3> Neural Net Tutorials </h3>
