@@ -9,7 +9,7 @@ Statistics
 <hr>
 <ul>
 <a href="ttps://github.com/AdiVarma27/AdiVarma27.github.io/blob/master/_jupyter/2019-06-22-%20Probability%20Distributions%20(The%20Why's%20of%20choosing%20a%20distribution%2C%20Formula-1%20approach).ipynb">Probability Distributions (The Why's of choosing a distribution, Formula-1 approach)</a>	
-h	
+
 </ul>
 </h3>
 
