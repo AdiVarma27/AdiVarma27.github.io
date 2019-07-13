@@ -53,26 +53,26 @@ def Logit(X, theta_0, theta_1):
     return 1/(1 + np.exp(-(theta_0 + theta_1*X)))
 
 # Logistic Rgression function
-def LogisticRegression(X, y, theta_0=0, theta_1=0, max_iterations=1000, alpha=0.01):
+#def LogisticRegression(X, y, theta_0=0, theta_1=0, max_iterations=1000, alpha=0.01):
 
     # current iteration until max_iterations
-    for iteration in range(max_iterations):
+#    for iteration in range(1000):
         
-        # partial derivatives
-        p_dev_theta0 = (1/len(X))*np.sum(Logit(X, theta_0, theta_1) - y)
-        p_dev_theta1 = (1/len(X))*np.sum((Logit(X, theta_0, theta_1) - y)*X)
+#        # partial derivatives
+#        p_dev_theta0 = (1/len(X))*np.sum(Logit(X, theta_0, theta_1) - y)
+#        p_dev_theta1 = (1/len(X))*np.sum((Logit(X, theta_0, theta_1) - y)*X)
         
         # parameter update step
-        theta_0 = theta_0 - alpha*p_dev_theta0
-        theta_1 = theta_1 - alpha*p_dev_theta1
+#        theta_0 = theta_0 - alpha*p_dev_theta0
+#        theta_1 = theta_1 - alpha*p_dev_theta1
         
         # total cost J
-        total_cost = -(1/len(X))*(np.sum(y*np.log(Logit(X, theta_0, theta_1)) + 
-                                         (1-y)*(np.log(1-Logit(X, theta_0, theta_1)))))
+#        total_cost = -(1/len(X))*(np.sum(y*np.log(Logit(X, theta_0, theta_1)) + 
+#                                         (1-y)*(np.log(1-Logit(X, theta_0, theta_1)))))
         
-        print(theta_0, theta_1, total_cost)
+#        print(theta_0, theta_1, total_cost)
         
-    return theta_0, theta_1
+#    return theta_0, theta_1
 
 # sample dataset
 X = np.array([0.50,0.75,1.00,1.25,1.50,1.75,1.75,2.00,2.25,2.50,2.75,3.00,3.25,3.50,4.00,4.25,4.50,4.75,5.00,5.50])
